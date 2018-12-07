@@ -45,5 +45,6 @@ def crawl():
         print("links left: " + str(len(queued_links)))
         create_jobs()
 
+
 create_workers()
 crawl()
